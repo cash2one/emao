@@ -1,0 +1,26 @@
+文件说明：
+~ 专题首页：index.html  
+~ 样式文件：css             
+~ JS文件：js                
+~ 素材图片：images       当前专题应用元素风格图片
+~ 内容图片：pages         内容图片，其中1.jpg为首封图，因专题为直接展开模式，首封图直接跳过，打开时便阅读内容页，即第2页。
+
+尺寸说明：
+~ 全屏尺寸编辑图片尺寸为：594x700(大图)
+~ 相册图片缩略尺寸为：494x580(缩小大图)
+~ 背景最佳尺寸为：1920x900
+
+功能改进：
+~ flipbook turnJS 键盘翻页修复
+~ Lightbox 键盘翻页
+~ 360浏览器BUG修复
+~ 杂志图片直接写入HTML
+
+编程说明：
+~ 在albumPhoto、flipbook两处DIV内容区域添加图片。
+<div class="albumPhoto"></div>
+<div class="flipbook"></div>
+
+~ coverlogo、pagelogo两处添加当期品牌LOGO，即，更换<img src="images/carlogo.png">图片路径
+
+~ tushuoShow中更换当期品牌背景图，即更换 background-image:url(images/topicbackground.jpg);
