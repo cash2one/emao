@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="content-type">
+        <title>在线小测验</title>
+        <link href="images/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+    
+    <div id="slickQuiz">
+    
+        <h1 class="quizName"></h1>
+
+        <div class="quizArea">
+            <div class="quizHeader">
+                <a class="button startQuiz" href="javascript:;">ARE YOU READY？计时开始——！（以下测试请在120秒内完成）</a>
+            </div>
+        </div>
+        
+        <h3 class="quizTimeOut">倒计时：<span id="theTimeOver">10</span>秒</h3>
+        
+        <div class="quizResults">
+            <h3 class="quizScore">你的指数得分：<span></span></h3>
+            <h3 class="selectedScore">你的选题积分：<span></span></h3>
+            <h3 class="quizLevel"><strong>答题级别：</strong><span></span></h3>
+            <div class="quizResultsCopy"><!-- where the quiz result copy goes --></div>
+        </div>
+        
+        <div class="quizEndTime">时间到！</div>
+        
+	</div>
+    
+        <script src="images/jquery.js"></script>
+        <script src="images/slickQuiz-config.js"></script>
+        <script src="images/slickQuiz.js"></script>
+        <script src="images/master.js"></script>
+    </body>
+</html>
